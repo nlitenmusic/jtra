@@ -98,8 +98,8 @@ nav ul li a:hover {
 
 #lesson_photo, #semi-private_photo, #group-lesson_photo, #social-image, #tournament-image {
   margin: auto;
-  height: 220px;
-  width: 380px;
+  height: 190px;
+  width: 350px;
   border-radius: 10px;
   padding-left: 15px;
 } 
