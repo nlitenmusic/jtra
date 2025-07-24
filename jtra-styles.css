@@ -145,6 +145,10 @@ nav ul li a:hover {
   color: whitesmoke;
 } 
 
+.schedule {
+  text-align: center;
+}
+
 .schedule a {
   background-color: #d0de2dfe;
   display: inline-block;
