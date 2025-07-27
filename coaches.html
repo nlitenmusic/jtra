@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Coaches - JTRA</title>
+    <link rel="stylesheet" href="jtra-styles.css"> 
+    <meta name="viewport" content="width=device-width, initial-scale=0">
+    <meta property="og:image" content="images/favicon.jpg">
+    <meta property="og:description" content="Building Community through Racquet Sports">
+    <meta property="og:title" content="JTRA">
+    <link rel="icon" type="image/jpg" href="images/favicon.jpg">
+    
+  <body>
+
+    <nav>
+      <ul class="sidebar"> 
+        <li onclick=hideSideBar() class="mobile"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#747171de"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="coaches.html">Coaches</a></li>
+        <li><a href="programs.html">Programs</a></li>
+        <li id="stats"><a href="events.html">Events</a></li>
+        <li id="stats"><a href="playerstats.html">Player Stats</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <ul> 
+        <li class="hideOnMobile"><a href="index.html">Home</a></li>
+        <li class="hideOnMobile"><a href="about.html">About</a></li>
+        <li class="hideOnMobile"><a href="coaches.html">Coaches</a></li>
+        <li class="hideOnMobile"><a href="programs.html">Programs</a></li>
+        <li class="hideOnMobile" id="stats"><a href="events.html">Events</a></li>
+        <li class="hideOnMobile" id="stats"><a href="playerstats.html">Player Stats</a></li>
+        <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+        <li class="hideOnDesktop">COACHES</li>
+        <li class="menu_button" onclick=showSideBar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#747171de"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+      </ul>
+    </nav>
+
+    <section id="coach-section">
+      <h2 id="coach1">Head Coach</h2>
+      <figure class="profile">
+        <img id="Coach-Jordan" src="images/Jordan-Tolbert-e1696511462696.jpg" alt="Photo of Head Coach Jordan Tolbert">
+        <figcaption>Jordan Tolbert is a premier Racquets Professional with more than 10 years experience coaching in the industry. Formerly a Top 20 Ranked Junior in New England, Jordan would go on to play the No.1 Singles position at UMASS Amherst, bringing his team to Nationals 3 of the 4 years he attended. </figcaption>
+        <figcaption>After spending 6 years at the Santa Monica Tennis Academy alongside ATP pro Evert Kruse, Jordan moved back home to Boston to teach locally at the Belmont Hill Club. He currently coaches players of all ages alongside Director of Racquets: Matt Rose and Assistant Director: Rahul Manoah</figcaption>
+      </figure>
+    </section>
+
+    <footer>
+      <p>&copy Copyright JTRA 2025</p>
+    </footer>  
+
+  <script>
+    function showSideBar() {
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'flex'
+    }
+
+    function hideSideBar() {
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'none'
+    }
+  </script>  
+
+  </body>
+Jordan-Tolbert-e1696511462696.jpg
